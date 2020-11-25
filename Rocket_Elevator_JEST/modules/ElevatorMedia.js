@@ -1,14 +1,13 @@
-class Streamer{
-    constructor(address, floors = 1) {
-        this.address = address;
-        this.floors = floors;
+class Streamer {
+    constructor( make, model, year, color ) {
+      this.make = make;
+      this.model = model;
+      this.year = year;
+      this.color = color;
+    }
+    getContent( color ) {
+      this.color = color;
     }
 }
-  // Instantiate the class
-let myHouse2 = new Streamer( '1102 Fake St., San Francisco CA, USA');
-    
-function getContent(){
-        return myHouse2.address
-    }
 
-module.exports = getContent;
+module.exports = Streamer;
