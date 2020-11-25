@@ -5,10 +5,10 @@ class Streamer{
     }
 }
   // Instantiate the class
-let myHouse = new Streamer( '1100 Fake St., San Francisco CA, USA', 2);
+let myHouse2 = new Streamer( '1102 Fake St., San Francisco CA, USA');
     
 function getContent(){
-        return myHouse.address
+        return myHouse2.address
     }
 
 module.exports = getContent;
