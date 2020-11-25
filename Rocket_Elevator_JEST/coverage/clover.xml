@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1606326742484" clover="3.2.0">
-  <project timestamp="1606326742484" name="All files">
+<coverage generated="1606327067531" clover="3.2.0">
+  <project timestamp="1606327067531" name="All files">
     <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="8" coveredelements="8" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
     <file name="ElevatorMedia.js" path="/home/willy321/Rocket_Elevator_Foundation_Testing/Rocket_Elevator_JEST/modules/ElevatorMedia.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
