@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {}
+    "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {
+    "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
+        "projectUniqueName": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
         "projectName": "PrimeService",
-        "projectPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
+        "projectPath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
         "packagesPath": "C:\\Users\\willy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\obj\\",
+        "outputPath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\willy\\AppData\\Roaming\\NuGet\\NuGet.Config",

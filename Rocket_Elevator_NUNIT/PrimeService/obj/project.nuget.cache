@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y37gV4/Q4wuN8tBCDG7u9PAc1r1fq2c1O+mOVNeOGzkLQlItPa+czL7KRO23SP8kkS3y9x+tUcp26USY7fLZow==",
+  "dgSpecHash": "tqFlHqSC0w5zfqqZTRzOxbGzddVDX9M5xeTRrrGvrRIOtNd1o/cvCwSlSNKeRwjmnnUidZjXAMsuPFWCqCkK6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
+  "projectFilePath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\willy\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

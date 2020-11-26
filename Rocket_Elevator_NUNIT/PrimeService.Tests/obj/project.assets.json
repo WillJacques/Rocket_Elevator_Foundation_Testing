@@ -4644,11 +4644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService.Tests\\PrimeService.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService.Tests\\PrimeService.Tests.csproj",
       "projectName": "PrimeService.Tests",
-      "projectPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService.Tests\\PrimeService.Tests.csproj",
+      "projectPath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService.Tests\\PrimeService.Tests.csproj",
       "packagesPath": "C:\\Users\\willy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService.Tests\\obj\\",
+      "outputPath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\willy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4664,8 +4664,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {
-              "projectPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj"
+            "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {
+              "projectPath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj"
             }
           }
         }
