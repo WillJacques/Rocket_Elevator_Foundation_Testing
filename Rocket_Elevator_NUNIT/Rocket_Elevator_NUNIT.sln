@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService", "PrimeService\PrimeService.csproj", "{6B3D17AB-23B3-4C14-8AD4-4114536C7B62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorMedia", "ElevatorMedia\ElevatorMedia.csproj", "{6B3D17AB-23B3-4C14-8AD4-4114536C7B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService.Tests", "PrimeService.Tests\PrimeService.Tests.csproj", "{8D7D5E96-F5D0-45BA-A3B7-647BF01E1ECB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorMedia.Tests", "ElevatorMedia.Tests\ElevatorMedia.Tests.csproj", "{8D7D5E96-F5D0-45BA-A3B7-647BF01E1ECB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

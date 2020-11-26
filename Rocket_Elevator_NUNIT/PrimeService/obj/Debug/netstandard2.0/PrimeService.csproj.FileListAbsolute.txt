@@ -1,9 +1,0 @@
-C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\PrimeService\bin\Debug\netstandard2.0\PrimeService.deps.json
-C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\PrimeService\bin\Debug\netstandard2.0\PrimeService.dll
-C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\PrimeService\bin\Debug\netstandard2.0\PrimeService.pdb
-C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\PrimeService\obj\Debug\netstandard2.0\PrimeService.csprojAssemblyReference.cache
-C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\PrimeService\obj\Debug\netstandard2.0\PrimeService.AssemblyInfoInputs.cache
-C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\PrimeService\obj\Debug\netstandard2.0\PrimeService.AssemblyInfo.cs
-C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\PrimeService\obj\Debug\netstandard2.0\PrimeService.csproj.CoreCompileInputs.cache
-C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\PrimeService\obj\Debug\netstandard2.0\PrimeService.dll
-C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\PrimeService\obj\Debug\netstandard2.0\PrimeService.pdb

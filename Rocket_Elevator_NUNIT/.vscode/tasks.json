@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/PrimeService.Tests/PrimeService.Tests.csproj",
+                "${workspaceFolder}/ElevatorMedia.Tests/ElevatorMedia.Tests.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/PrimeService.Tests/PrimeService.Tests.csproj",
+                "${workspaceFolder}/ElevatorMedia.Tests/ElevatorMedia.Tests.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/PrimeService.Tests/PrimeService.Tests.csproj",
+                "${workspaceFolder}/ElevatorMedia.Tests/ElevatorMedia.Tests.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
