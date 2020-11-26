@@ -16,5 +16,15 @@ namespace ElevatorMedia
             }
             throw new NotImplementedException("Please create a test first.");
         }
+        public string getContent(int value)
+        {
+            string answer = "";
+            for (int i = 0 ; i <= value; i++ )
+            {
+                answer = $"Hi {i} !";
+                Console.WriteLine(answer);
+            }
+            return answer;
+        }
     }
 }

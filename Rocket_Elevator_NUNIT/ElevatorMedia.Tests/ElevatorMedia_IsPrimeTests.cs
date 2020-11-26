@@ -28,5 +28,12 @@ namespace Elevator.Media.Tests
             var result = _primeMedia.getContent1(value);
             Assert.IsTrue(result, $"{value} should not be prime");
         }
+
+        [TestCase(3)]
+        public void getContent_returnsstring_HiValue(int value)
+        {
+            var result = _primeMedia.getContent(value);
+            Assert.IsInstanceOf<string>(result);
+        }
     }
 }
