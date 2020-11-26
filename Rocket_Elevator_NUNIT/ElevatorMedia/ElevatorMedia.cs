@@ -21,9 +21,25 @@ namespace ElevatorMedia
             string answer = "";
             for (int i = 0 ; i <= value; i++ )
             {
+                if(i % 15 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }  
+                else if(i % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                else if(i % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                else 
+                {
+                    Console.WriteLine($"{i}");
+                }
                 answer = $"Hi {i} !";
-                Console.WriteLine(answer);
             }
+            Console.WriteLine(answer);
             return answer;
         }
     }
