@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1606339311457" clover="3.2.0">
-  <project timestamp="1606339311457" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="11" coveredelements="11" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+<coverage generated="1606348043036" clover="3.2.0">
+  <project timestamp="1606348043037" name="All files">
+    <metrics statements="12" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4" elements="17" coveredelements="15" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
     <file name="ElevatorMedia.js" path="/home/willy321/Rocket_Elevator_Foundation_Testing/Rocket_Elevator_JEST/modules/ElevatorMedia.js">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
+      <metrics statements="12" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
       <line num="17" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="43" count="0" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

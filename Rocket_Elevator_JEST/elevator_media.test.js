@@ -11,3 +11,8 @@ test('return best president', () => {
     let myfacts = new Streamer()
     expect(myfacts.getcontent2()).toBe('Chuck Norris for president !');
 })
+
+test('return something', () => {
+    let chuckfacts = new Streamer()
+    expect(chuckfacts.getcontent3()).toBe('');
+})

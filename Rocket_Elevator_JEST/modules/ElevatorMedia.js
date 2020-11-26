@@ -1,3 +1,7 @@
+const jquery = require('jquery');
+
+require ('../node_modules/jquery/dist/jquery')
+
 class Streamer {
     constructor( make, model, year, color ) {
       this.make = make;
@@ -9,29 +13,36 @@ class Streamer {
       this.color = color;
     }
     getcontent2() {
-        var fact = "Chuck Norris for president !"
+        var fact = "Chuck Norris for president !";
         return fact
+    }
+    getcontent3() {
+        // var funfact = ""
+        // jQuery.getJSON('https://api.chucknorris.io/jokes/random', function(data) {
+        // console.log("----")
+        // console.log(data)
+        // console.log("----")
+        // console.log(data.value)
+        // console.log("----")
+        // });
+        // async function load() {
+        //     let url = 'https://api.chucknorris.io/jokes/random';
+        //     let obj = await (await fetch(url)).json();
+        //     console.log(obj);
+        // }
+        // load();
+        // $.getJSON('https://api.chucknorris.io/jokes/random', function(data) {
+        // var text = `Data: ${data.value}`
+        // console.log(text)
+        // });
+        jquery.ajax({
+            method: "GET",
+            url: "https://api.chucknorris.io/jokes/random",
+            dataType: "json",
+            data: {}
+          }).done(json => console.log(json.value));
     }
 }
 
 module.exports = Streamer;
 
-// $.ajax({
-//     url: "/building",
-//     type: "GET",  
-//     dataType: "json",
-//     data: {customer: customer},
-//     error: function (xhr, status, error) {
-//         console.error('AJAX Error: ' + status + error);
-//     },
-//     success: function (response) {
-//         console.log(response);
-//         var buildings = response["buildings"];
-//         $("#intervention_building_id").empty();
-
-//         $("#intervention_building_id").append('<option value="">Select Building</option>');
-//         for(var i = 0; i < buildings.length; i++){
-//             $("#intervention_building_id").append('<option value="' + buildings[i]["id"] + '">' +buildings[i]["address_of_the_building"] + '</option>');
-//         }
-//     }
-// });

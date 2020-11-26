@@ -10,6 +10,8 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "node": "^15.2.1",
+    "node-fetch": "^2.6.1"
   }
 }
