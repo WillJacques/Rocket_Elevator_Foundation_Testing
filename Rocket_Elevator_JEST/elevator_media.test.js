@@ -3,7 +3,7 @@ const Streamer = require ('./modules/ElevatorMedia');
 test('return color', () => {
     let mycar = new Streamer( 'Dodge', 'Grand Caravan', 2012, 'Grey' );
     expect(mycar.color).toBe('Grey');
-    mycar.getContent('Pink');
+    mycar.getContent3('Pink');
     expect(mycar.color).toBe('Pink');
 })
 
@@ -14,5 +14,5 @@ test('return best president', () => {
 
 test('return something', async () => {
     let chuckfacts = new Streamer()
-    await expect(chuckfacts.getcontent3()).resolves.toEqual(expect.any(String));
+    await expect(chuckfacts.getcontent()).resolves.toEqual(expect.any(String));
 })

@@ -10,18 +10,18 @@ class Streamer {
       this.year = year;
       this.color = color;
     }
-    getContent( color ) {
+    getContent3( color ) {
       this.color = color;
     }
     getcontent2() {
         var fact = "Chuck Norris for president !";
         return fact
     }
-    async getcontent3() {
+    async getcontent() {
         const response = await fetch('https://api.chucknorris.io/jokes/random');
         const json = await response.json();
-        console.log(json.value);
-        return json.value;
+        let html_response = "<p>"+json.value+"</p>"
+        return html_response;
     }
 }
 
