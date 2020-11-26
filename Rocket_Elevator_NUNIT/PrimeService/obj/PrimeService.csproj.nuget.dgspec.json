@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willy\\Desktop\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {}
+    "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willy\\Desktop\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {
+    "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
+        "projectUniqueName": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
         "projectName": "PrimeService",
-        "projectPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
+        "projectPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\PrimeService.csproj",
         "packagesPath": "C:\\Users\\willy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_NUNIT\\PrimeService\\obj\\",
+        "outputPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\PrimeService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\willy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
