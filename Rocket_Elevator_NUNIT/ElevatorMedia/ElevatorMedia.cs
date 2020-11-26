@@ -4,7 +4,7 @@ namespace ElevatorMedia
 {
     public class Streamer
     {
-        public bool getContent(int candidate)
+        public bool getContent1(int candidate)
         {
             if(candidate == 1)
             {

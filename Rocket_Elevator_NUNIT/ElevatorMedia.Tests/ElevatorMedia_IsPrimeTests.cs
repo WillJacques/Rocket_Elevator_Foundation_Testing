@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using ElevatorMedia;
 
-namespace ElevatorMedia.Tests
+namespace Elevator.Media.Tests
 {
     [TestFixture]
     public class Streamer_getContentTests
@@ -16,7 +16,7 @@ namespace ElevatorMedia.Tests
         [Test]
         public void getContent_CandidateIs1_ReturnFalse()
         {
-            var result = _primeMedia.getContent(1);
+            var result = _primeMedia.getContent1(1);
             Assert.IsFalse(result, "1 should not be prime");
         }
 
@@ -25,7 +25,7 @@ namespace ElevatorMedia.Tests
         [TestCase(100)]
         public void getContent_CandidateIs2OrMore_ReturnTrue(int value)
         {
-            var result = _primeMedia.getContent(value);
+            var result = _primeMedia.getContent1(value);
             Assert.IsTrue(result, $"{value} should not be prime");
         }
     }
