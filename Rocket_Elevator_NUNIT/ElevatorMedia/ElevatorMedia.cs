@@ -42,5 +42,9 @@ namespace ElevatorMedia
             Console.WriteLine(answer);
             return answer;
         }
+        public bool getContent()
+        {
+            throw new NotImplementedException("Please create a test first.");
+        }
     }
 }

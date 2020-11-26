@@ -35,5 +35,11 @@ namespace Elevator.Media.Tests
             var result = _primeMedia.getContent2(value);
             Assert.IsInstanceOf<string>(result);
         }
+        [Test]
+        public void getContent_ReturnStockValue_fromAPI()
+        {
+            var result = _primeMedia.getContent();
+            Assert.IsInstanceOf<string>(result);
+        }
     }
 }
