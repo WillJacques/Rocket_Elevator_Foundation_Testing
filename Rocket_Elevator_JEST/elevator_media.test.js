@@ -12,7 +12,7 @@ test('return best president', () => {
     expect(myfacts.getcontent2()).toBe('Chuck Norris for president !');
 })
 
-test('return something', () => {
+test('return something', async () => {
     let chuckfacts = new Streamer()
-    expect(chuckfacts.getcontent3()).toBe('');
+    await expect(chuckfacts.getcontent3()).resolves.toEqual(expect.any(String));
 })
