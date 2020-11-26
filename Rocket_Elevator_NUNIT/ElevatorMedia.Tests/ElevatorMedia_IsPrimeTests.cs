@@ -4,7 +4,7 @@ using Elevator.Medias;
 namespace Elevator.Media.Tests
 {
     [TestFixture]
-    public class ElevatorMedia_IsElevatorTests
+    public class ElevatorMedia_IsPrimeTests
     {
         private ElevatorMedia _primeMedia;
         [SetUp]
@@ -14,18 +14,18 @@ namespace Elevator.Media.Tests
         }
 
         [Test]
-        public void IsElevator_CandidateIs1_ReturnFalse()
+        public void IsPrime_CandidateIs1_ReturnFalse()
         {
-            var result = _primeMedia.IsElevator(1);
+            var result = _primeMedia.IsPrime(1);
             Assert.IsFalse(result, "1 should not be prime");
         }
 
         [TestCase(2)]
         [TestCase(10)]
         [TestCase(100)]
-        public void IsElevator_CandidateIs2OrMore_ReturnTrue(int value)
+        public void IsPrime_CandidateIs2OrMore_ReturnTrue(int value)
         {
-            var result = _primeMedia.IsElevator(value);
+            var result = _primeMedia.IsPrime(value);
             Assert.IsTrue(result, $"{value} should not be prime");
         }
     }

@@ -4,7 +4,7 @@ namespace Elevator.Medias
 {
     public class ElevatorMedia
     {
-        public bool IsElevator(int candidate)
+        public bool IsPrime(int candidate)
         {
             if(candidate == 1)
             {
