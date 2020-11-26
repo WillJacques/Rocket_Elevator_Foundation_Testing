@@ -1,31 +1,31 @@
 using NUnit.Framework;
-using Elevator.Medias;
+using ElevatorMedia;
 
-namespace Elevator.Media.Tests
+namespace ElevatorMedia.Tests
 {
     [TestFixture]
-    public class ElevatorMedia_IsElevatorTests
+    public class Streamer_getContentTests
     {
-        private ElevatorMedia _primeMedia;
+        private Streamer _primeMedia;
         [SetUp]
         public void Setup()
         {
-            _primeMedia = new ElevatorMedia();
+            _primeMedia = new Streamer();
         }
 
         [Test]
-        public void IsElevator_CandidateIs1_ReturnFalse()
+        public void getContent_CandidateIs1_ReturnFalse()
         {
-            var result = _primeMedia.IsElevator(1);
+            var result = _primeMedia.getContent(1);
             Assert.IsFalse(result, "1 should not be prime");
         }
 
         [TestCase(2)]
         [TestCase(10)]
         [TestCase(100)]
-        public void IsElevator_CandidateIs2OrMore_ReturnTrue(int value)
+        public void getContent_CandidateIs2OrMore_ReturnTrue(int value)
         {
-            var result = _primeMedia.IsElevator(value);
+            var result = _primeMedia.getContent(value);
             Assert.IsTrue(result, $"{value} should not be prime");
         }
     }

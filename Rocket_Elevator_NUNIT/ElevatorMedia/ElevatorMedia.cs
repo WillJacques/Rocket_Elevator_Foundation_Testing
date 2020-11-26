@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Elevator.Medias
+namespace ElevatorMedia
 {
-    public class ElevatorMedia
+    public class Streamer
     {
-        public bool IsElevator(int candidate)
+        public bool getContent(int candidate)
         {
             if(candidate == 1)
             {
