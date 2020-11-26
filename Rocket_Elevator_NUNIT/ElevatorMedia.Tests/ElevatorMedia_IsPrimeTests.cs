@@ -32,7 +32,7 @@ namespace Elevator.Media.Tests
         [TestCase(120)]
         public void getContent_returnsstring_HiValue_with_FIZZBUZZ_in_console(int value)
         {
-            var result = _primeMedia.getContent(value);
+            var result = _primeMedia.getContent2(value);
             Assert.IsInstanceOf<string>(result);
         }
     }

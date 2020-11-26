@@ -16,7 +16,7 @@ namespace ElevatorMedia
             }
             throw new NotImplementedException("Please create a test first.");
         }
-        public string getContent(int value)
+        public string getContent2(int value)
         {
             string answer = "";
             for (int i = 0 ; i <= value; i++ )
