@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QrBRZtOGDf0p6v+b092Cg/gE0sdSzF+6gxBLDbIlcq1+WvYrKVP0jjCj8mmoTfGiSMo2EpAD3KFsjmKH2lwZlw==",
+  "dgSpecHash": "sKhiUArGwtTxhvYi9M6fSZJONPFOxqrcdBSA3/MrMrdDFUO25YtXOrlNtP/PqEmZ5Brge6KmOGEAfqqcMCjaLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia\\ElevatorMedia.csproj",
+  "projectFilePath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia\\ElevatorMedia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\willy\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

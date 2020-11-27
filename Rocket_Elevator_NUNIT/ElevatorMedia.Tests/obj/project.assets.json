@@ -3856,11 +3856,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia.Tests\\ElevatorMedia.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia.Tests\\ElevatorMedia.Tests.csproj",
       "projectName": "ElevatorMedia.Tests",
-      "projectPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia.Tests\\ElevatorMedia.Tests.csproj",
+      "projectPath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia.Tests\\ElevatorMedia.Tests.csproj",
       "packagesPath": "C:\\Users\\willy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia.Tests\\obj\\",
+      "outputPath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\willy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3876,8 +3876,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia\\ElevatorMedia.csproj": {
-              "projectPath": "C:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia\\ElevatorMedia.csproj"
+            "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia\\ElevatorMedia.csproj": {
+              "projectPath": "c:\\Users\\willy\\Desktop\\Rocket_Elevator_Foundation_Testing\\Rocket_Elevator_NUNIT\\ElevatorMedia\\ElevatorMedia.csproj"
             }
           }
         }

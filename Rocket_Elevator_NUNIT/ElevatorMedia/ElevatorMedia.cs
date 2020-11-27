@@ -32,7 +32,7 @@ namespace ElevatorMedia
             string answer = "";
             for (int i = 0 ; i <= value; i++ )
             {
-                if(i % 15 == 0)
+                if(i % 3 == 0 && i % 5 ==0)
                 {
                     Console.WriteLine("FizzBuzz");
                 }  
