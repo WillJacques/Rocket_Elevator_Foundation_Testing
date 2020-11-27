@@ -6,6 +6,14 @@ namespace ElevatorMedia
 {
     public class Streamer
     {
+        public string getContent()
+        {
+            var json = new WebClient().DownloadString("https://api.chucknorris.io/jokes/random");
+            var response = JObject.Parse(json);
+            string chuckfact = response["value"].ToString();
+            Console.WriteLine(chuckfact);
+            return chuckfact;
+        }
         public bool getContent1(int candidate)
         {
             if(candidate == 1)
@@ -44,13 +52,21 @@ namespace ElevatorMedia
             Console.WriteLine(answer);
             return answer;
         }
-        public string getContent()
+        public bool getContent3(int value)
         {
-            var json = new WebClient().DownloadString("https://api.chucknorris.io/jokes/random");
-            var response = JObject.Parse(json);
-            string chuckfact = response["value"].ToString();
-            Console.WriteLine(chuckfact);
-            return chuckfact;
+            if(value < 2)
+            {
+                return false;
+            }
+            for (int i = 2 ; i <= value/2; i++ )
+            {
+                if(value % i == 0)
+                {
+                    return true;
+                }  
+            }
+            return false;
         }
+        
     }
 }
