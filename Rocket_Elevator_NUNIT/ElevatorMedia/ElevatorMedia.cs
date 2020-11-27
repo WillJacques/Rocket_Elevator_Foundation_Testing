@@ -11,8 +11,9 @@ namespace ElevatorMedia
             var json = new WebClient().DownloadString("https://api.chucknorris.io/jokes/random");
             var response = JObject.Parse(json);
             string chuckfact = response["value"].ToString();
-            Console.WriteLine(chuckfact);
-            return chuckfact;
+            string html = $"<p> {chuckfact} </p>";
+            Console.WriteLine(html);
+            return html;
         }
         public bool getContent1(int candidate)
         {
