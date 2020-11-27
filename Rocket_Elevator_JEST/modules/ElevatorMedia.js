@@ -1,7 +1,4 @@
-const jquery = require('jquery');
 const fetch = require('node-fetch');
-
-require ('../node_modules/jquery/dist/jquery')
 
 class Streamer {
     constructor( make, model, year, color ) {
