@@ -36,7 +36,7 @@ namespace Elevator.Media.Tests
             Assert.IsInstanceOf<string>(result);
         }
         [Test]
-        public void getContent_ReturnStockValue_fromAPI()
+        public void getContent_ReturnChuckValue_fromAPI()
         {
             var result = _primeMedia.getContent();
             Assert.IsInstanceOf<string>(result);

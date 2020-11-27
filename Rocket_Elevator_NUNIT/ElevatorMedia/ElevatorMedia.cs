@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net;
+using Newtonsoft.Json.Linq;
 
 namespace ElevatorMedia
 {
@@ -42,9 +44,13 @@ namespace ElevatorMedia
             Console.WriteLine(answer);
             return answer;
         }
-        public bool getContent()
+        public string getContent()
         {
-            throw new NotImplementedException("Please create a test first.");
+            var json = new WebClient().DownloadString("https://api.chucknorris.io/jokes/random");
+            var response = JObject.Parse(json);
+            string chuckfact = response["value"].ToString();
+            Console.WriteLine(chuckfact);
+            return chuckfact;
         }
     }
 }
