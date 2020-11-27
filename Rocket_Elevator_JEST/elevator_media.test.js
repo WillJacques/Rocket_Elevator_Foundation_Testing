@@ -4,7 +4,7 @@ beforeEach(() => {
     fetch.resetMocks();
   });
   
-test("finds exchange", async () => {
+test("return stub fetch", async () => {
     fetch.mockResponseOnce(JSON.stringify({"categories": [],
         "created_at": "2020-01-05 13:42:21.795084",
         "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
