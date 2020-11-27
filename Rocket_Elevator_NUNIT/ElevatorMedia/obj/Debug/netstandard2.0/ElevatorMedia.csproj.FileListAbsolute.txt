@@ -1,0 +1,9 @@
+C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\ElevatorMedia\bin\Debug\netstandard2.0\ElevatorMedia.deps.json
+C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\ElevatorMedia\bin\Debug\netstandard2.0\ElevatorMedia.dll
+C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\ElevatorMedia\bin\Debug\netstandard2.0\ElevatorMedia.pdb
+C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\ElevatorMedia\obj\Debug\netstandard2.0\ElevatorMedia.csprojAssemblyReference.cache
+C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\ElevatorMedia\obj\Debug\netstandard2.0\ElevatorMedia.AssemblyInfoInputs.cache
+C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\ElevatorMedia\obj\Debug\netstandard2.0\ElevatorMedia.AssemblyInfo.cs
+C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\ElevatorMedia\obj\Debug\netstandard2.0\ElevatorMedia.csproj.CoreCompileInputs.cache
+C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\ElevatorMedia\obj\Debug\netstandard2.0\ElevatorMedia.dll
+C:\Users\willy\Desktop\Rocket_Elevator_Foundation_Testing\Rocket_Elevator_NUNIT\ElevatorMedia\obj\Debug\netstandard2.0\ElevatorMedia.pdb
