@@ -17,5 +17,12 @@
     "jquery": "^3.5.1",
     "node": "^15.2.1",
     "node-fetch": "^2.6.1"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./setupJest.js"
+    ]
   }
 }
+
